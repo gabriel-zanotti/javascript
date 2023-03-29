@@ -1,0 +1,17 @@
+Notas importantes
+
+----------------------------------------------------------------------------
+
+= - atribuição
+
+== - ignora o tipo, ex.: comparar um número inteiro com uma string,
+se o valor for o mesmo que é uma string e um número inteiro
+ele vai ignorar e fazer uma conversão implícita.
+
+=== - igualdade, só retorna true se os dois valores forem do mesmo tipo,
+contrário do exemplo acima e o mais utilizado.
+
+-----------------------------------------------------------------------------
+
+==> Vale Ressaltar que: em variáveis booleanas, devemos utilizar o prefixo is
+no começo do nome da variável por estarmos tratando de um estado de é ou não é.
